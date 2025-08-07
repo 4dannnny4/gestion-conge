@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 @RestController
 @RequestMapping("/api/demandeConges")
+@CrossOrigin(origins = "http://localhost:4200")
 public class DemandeCongeController {
 
     private final DemandeCongeService DemandeCongeService;

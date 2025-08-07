@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 @RestController
 @RequestMapping("/api/typeConges")
+@CrossOrigin(origins = "http://localhost:4200")
 public class TypeCongeController { 
     
     private final TypeCongeService typeCongeService;
